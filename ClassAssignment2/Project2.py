@@ -82,7 +82,7 @@ def render():
 
     lightPos0 = (100., 10., 100., 1.)
     lightPos1 = (-100., 10., -100., 1.)
-    lightPos2 = (0., 100., 0.)
+    lightPos2 = (0., 100., 0., 1.)
 
     glLightfv(GL_LIGHT0, GL_POSITION, lightPos0)
     glLightfv(GL_LIGHT1, GL_POSITION, lightPos1)
